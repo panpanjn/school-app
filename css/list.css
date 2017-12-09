@@ -1,0 +1,207 @@
+html body{
+	background: #364A73;
+  overflow-x: hidden;
+}
+
+/* wiggle image */
+.bubbles{
+    height:100px;
+    width:100px;
+    border-radius: 100%;
+    border:3px solid #fff;
+    animation: wiggle .2s infinite;
+    margin-top: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 4px;
+    margin-left: 9px;
+}
+
+.bubbles p {
+    transition:all .3s;
+    border-radius: 100%;
+    margin:0;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: none;
+}
+
+.bubble-aau{
+    background-image: url(../image/school-logos/aau.png);
+}
+
+.bubble-stanford{
+    background-image: url(../image/school-logos/stanford.png);
+    width: 128px;
+    height: 128px;
+}
+
+.bubble-harvard{
+    background-image: url(../image/school-logos/harvard.png);
+    width: 115px;
+    height: 115px;
+}
+
+.bubble-ucsb{
+    background-image: url(../image/school-logos/ucsb.png);
+    width: 121px;
+    height: 121px;
+}
+
+.bubble-sfsu{
+    background-image: url(https://pbs.twimg.com/profile_images/632234016746242048/Z2eMG_IH.png);
+    width: 121px;
+    height: 121px;
+}
+
+.bubble-yale{
+    background-image: url(../image/school-logos/yale.jpg);
+    width: 128px;
+    height: 128px;
+}
+
+.bubble-ucla{
+    background-image: url(../image/school-logos/ucla.png);
+    width: 119px;
+    height: 119px;
+}
+
+.bubble-nw{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Northwestern_University_seal.svg/1200px-Northwestern_University_seal.svg.png);
+    width: 116px;
+    height: 116px;
+}
+
+.bubble-cornell{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/1200px-Cornell_University_seal.svg.png);
+    width: 120px;
+    height: 120px;
+}
+
+.bubble-phoenix{
+    background-image: url(https://yt3.ggpht.com/-8sLHZcynrTQ/AAAAAAAAAAI/AAAAAAAAAAA/KxYnxeK3OaY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg);
+    width: 124px;
+    height: 124px;
+}
+
+.bubble-columbia{
+    background-image: url(http://engineering.columbia.edu/files/engineering/crossed_hammer_logo.jpg);
+    width: 121px;
+    height: 121px;
+}
+
+.bubble-ohio{
+    background-image: url(http://sportsmockery.com/wp-content/uploads/2016/11/Ohio-State-Logo.jpg);
+    width: 119px;
+    height: 119px;
+}
+
+.bubble-kansas{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Kansas_Jayhawks_logo.svg/271px-Kansas_Jayhawks_logo.svg.png);
+    width: 119px;
+    height: 119px;
+}
+
+.bubbles:hover {
+  animation: none;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+/* Image position*/
+.container{
+  display: inline-flex;
+  min-width: fit-content;
+}
+/*.wrapper {
+  width: 650px;
+  display: inline-grid;
+  padding: 4px;
+  margin: 5px auto;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: auto;
+}*/
+
+/* slider */
+/*.card-grouping {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-points-x: repeat(300px);
+      -ms-scroll-snap-points-x: repeat(300px);
+          scroll-snap-points-x: repeat(200px);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+}*/
+
+/* view menu */
+.sector-left {  
+    border-radius: 0 100px 0 0;
+    width: 100px;  
+    height: 100px;  
+    line-height: 100px;  
+    text-align: center;  
+    margin: 100px;  
+    background-color: #98c9f5; 
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 200px; 
+    margin-right: 0px; 
+}
+
+.sector-right {  
+    border-radius: 100px 0 0 0;
+    width: 100px;  
+    height: 100px;  
+    line-height: 100px;  
+    text-align: center;  
+    margin: 100px;  
+    background-color: #98c9f5; 
+
+    margin-top: -100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 240px;
+}
+
+.fa{
+  font-size: 2em ! important;
+  padding: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

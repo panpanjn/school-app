@@ -1,0 +1,36 @@
+/*account*/
+
+span img {
+    width: 20px;
+    margin-right: 30px;
+}
+
+.accountMenu {
+    padding: 0;
+}
+
+.profileImage {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.list-group{
+    border-radius: 0 !important;
+}
+.list-group-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    background-color: transparent;
+    border-radius: 0 !important;
+}
+
+.list-group-item:last-child {
+    border-bottom: 0;
+}
+
+.accountMenu li:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 0 0 black;
+}

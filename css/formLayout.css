@@ -1,0 +1,45 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin,
+.form-signUp {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.social .btn {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.form-check-input {
+    margin-top: 0;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#portrait {
+    background-image: url(../iamge/icons/1459283563_man.png);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+
+/*social*/
+
+.social {
+    text-align: center;
+}

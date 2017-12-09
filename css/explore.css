@@ -1,0 +1,99 @@
+/*EXPLORE CSS*/
+
+html {
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: roboto;
+}
+
+.container {
+    padding: 30px;
+}
+
+.city-content {
+    margin-top: 40px;
+}
+
+.city-content h5 {
+    font-weight: 700;
+}
+
+.city-content p {
+    width: 260px;
+    line-height: 16px;
+}
+
+
+
+.topIcons img {
+    width: 16px;
+    height: 16px;
+}
+
+.card-grouping {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-points-x: repeat(300px);
+      -ms-scroll-snap-points-x: repeat(300px);
+          scroll-snap-points-x: repeat(200px);
+  -webkit-scroll-snap-type: mandatory;
+      -ms-scroll-snap-type: mandatory;
+          scroll-snap-type: mandatory;
+}
+
+.card {
+    scroll-behavior: smooth;
+    float: left;
+    flex-shrink: 0;
+    margin-right: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.ranking {
+    font-weight: 500;
+    color: #fff;
+    font-size: 10px;
+    width: 65px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+}
+
+.ranking:nth-child(1) {
+    background-color: #B2E299;
+}
+
+.card-img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 134px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-img {
+    background-image: url(../iamge/standford/csm_christian-pohl-clarkcenter-europanel-aluminium-fassade-2_7bbc237aef.jpg);
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.card a {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
